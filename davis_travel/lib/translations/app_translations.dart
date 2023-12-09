@@ -1,0 +1,460 @@
+import 'package:get/get.dart';
+
+class AppTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': {
+          "come_to_japan": "Welcome to Japan",
+          "come_to_japan_desc":
+              "The cherry blossoms are in full bloom, the tea is hot, and the people are friendly. Come to Japan and experience the beauty of this country",
+          "popular_destinations": "Popular destinations inside Japan",
+          "private_trip": "Private Trip",
+          "coming_soon": "COMING SOON",
+          "learn_more": "Learn more",
+          "booking_now": "Booking Now",
+          "honeymoon_trips": "Honeymoon Trips",
+          "regular_trips_desc":
+              "Enjoy a vacation to Japan comfortably with a special package from us",
+          "more_special_offers": "More special offers",
+          "special_offer": "Special Offer",
+          "travel_history": "Travel History",
+          "need_booking": "Need booking help?",
+          "ask_a_specialist": "Ask a Specialist",
+          "accommodations": "accommodations",
+          "explore_your_best": "Explore Your Best Trip with Us",
+          "explore_your_best_desc":
+              "Experience comfort and convenience with our range of transportation options. Whether you're traveling with a group or solo, we have the perfect vehicle for you.",
+          "join_us": "Join Us as a Tour Guide Partner",
+          "join_us_desc":
+              "Ready to be part of our journey? Join us as a tour guide partner and connect with us through WhatsApp.",
+          "get_started": "Get Started",
+          "welcome_to_skyfast_tour": "Welcome to Skyfast Tour",
+          "professional_tour_guide": "Professional Tour Guide Service!",
+          "about_us": "About Us",
+          "about_us_desc":
+              "Experience unforgettable travel adventures with SKYFASTTOUR, a provider of professional tour guide services. Established in 2023, we are committed to delivering in-depth and authentic travel experiences for each of our clients.",
+          "why_choose_us": "Why Choose Us?",
+          "why_choose_us_desc_one":
+              "Extensive Expertise: With over one years of experience, our tour guide team possesses profound knowledge about travel destinations and local cultures.",
+          "why_choose_us_desc_two":
+              "Professional Team: Our tour guides aren't just focused on historical and cultural information; they are also friendly, interactive, and ready to answer your questions.",
+          "why_choose_us_desc_three":
+              "Diverse Destinations: From breathtaking natural wonders to visits to historical sites, we offer a wide range of destination choices tailored to your interests",
+          "why_choose_us_desc_four":
+              "Customized Packages: We understand that every client has different preferences. Hence, we offer customizable tour packages to suit your needs.",
+          "why_choose_us_desc_five":
+              "Customer-Centric Service: Customer satisfaction is our top priority. We strive to provide the best service to ensure you have an unforgettable travel experience.",
+          "companys_tax": "Company's Tax Identification Number (NPWP)",
+          "companys_npwp": "Company's NPWP",
+          "registered_name": "Registered Name",
+          "registered_address": "Registered Address",
+          "privacy_data_policy": "Privacy & Data Policy",
+          "privacy_data_policy_desc":
+              "Welcome to the SKYFAST TOUR! Our privacy policy is designed to explain how we collect, use and protect your personal information when you use our website. We are deeply committed to protecting the privacy and security of your data. By using this website, you consent to the practices described in this privacy policy. If you do not agree with this policy, please do not use our website.",
+          "information_collect": "Information We Collect",
+          "information_collect_decs_one":
+              "Personal Information: When you use the SKYFAST TOUR website, we may ask you to provide certain personal information, such as your name, email address, telephone number, and other relevant identifying information. We will only collect personal information if you voluntarily provide it to us.",
+          "information_collect_decs_two":
+              "Non-Personal Information: In addition to personal information, we may also collect non-personal information, such as demographic data, preferences, and other information that cannot be used to personally identify you.",
+          "your_information": "How We Use Your Information",
+          "your_information_desc_one":
+              "Use of Personal Information: We use the personal information you provide to provide the services and information you request, process transactions, manage your account, and provide effective customer support. Your personal information may also be used to inform you of updates, special offers, or other related information that may be of interest to you.",
+          "your_information_desc_two":
+              "Use of Non-Personal Information: The non-personal information we collect may be used for data analysis, improvement of our website, as well as to optimize your user experience.",
+          "links_third": "Links to Third Party Sites",
+          "links_third_desc":
+              "The SKYFAST TOUR website may contain links to third party websites not operated by us. Our privacy policy does not apply to these third party websites. We encourage you to read their privacy policies before providing personal information to them.",
+          "privacy_policy_changes": "Privacy Policy Changes",
+          "privacy_policy_changes_desc":
+              "We may update this privacy policy from time to time. When we do, we will update the 'Last Updated' date at the top of this page. We encourage you to periodically review this privacy policy to stay updated on how we protect your information.",
+          "contact_us": "Contact Us",
+          "contact_us_desc":
+              "If you have any questions or comments about our privacy policy or the way we manage your personal information, please contact us via the email address or postal address listed on our website.",
+          "agree_send": "Agree and Send",
+          "visit_these_romantic":
+              "Visit these romantic sites in Japan for your holiday!",
+          "visit_these_romantic_desc":
+              "Embark on a romantic journey with these enchanting destinations in Japan. Create memories that last a lifetime.",
+          "complete_your_experience":
+              "Complete Your Experience with the Best Facilities",
+          "complete_your_experience_desc":
+              "Experience the Best Facilities at the Best Price!",
+          "additional_charges": "Additional Charges:",
+          "starting_from": "Starting from:",
+          "start_from": "Start from",
+          "what_do_you_need": "What do you need for your best trip?",
+          "what_do_you_need_desc":
+              "Book our tour guide for an unforgettable experience, explore amazing destinations, gain valuable local insights. Book now, enjoy an unforgettable trip!",
+          "more_than": "More than 100+ people departure",
+          "come_on_vacation":
+              "Come on vacation with us and find comfort in every trip",
+          "get_your_best_experience ":
+              "Get your best experience while in Japan with Skyfast tour which provides a variety of the best travel facilities",
+          "company": "Company",
+          "term_condition": "Term & Condition",
+          "carrer": "Carrer",
+          "more_link": "More Link",
+          "service_tour": "Service/Tour",
+          "promo": "Promo",
+          "tours": "Tours",
+          "domestic": "Domestic",
+          "2_can_go": "2 Can Go",
+          "easy_to_go": "Easy to go",
+          "contact_info": "Contact Info",
+          "information": "Information",
+          "tour": "Tour",
+          "reservation": "Reservation",
+          "ticketing": "Ticketing",
+          "article_event": "Article & Event",
+          "tourgued_desc":
+              "TourGued may use cookies and other similar technologies to improve the user experience on our website. Cookies are small text files stored on your device that help us identify you when you return to our site. You can set your browser to refuse all or some cookies or to notify you when a cookie is sent.",
+          "login": "Login",
+          "register": "Register",
+          "email": "Email",
+          "password": "Password",
+          "forget_password": "Forget Password",
+          "just_created_account": "Just created an account?",
+          "have_account": "Have an account?",
+          "contact_person": "Contact Person",
+          "contact_person_desc":
+              "Thank you for your trust in us, is there anything we can help? Please contact us via WhatsApp ",
+          "send_message": "Send a Message",
+          "first_name": "First Name",
+          "last_name": "Last Name",
+          "to_protect_security":
+              "To protect the security of your data, you should replace it please",
+          "holiday": "Holiday",
+          "privacy": "Privacy",
+          "or": "Or",
+          "successfully_registered ": "you have successfully registered",
+          "hello": "Hello",
+          "please_fill_email": "Please fill email",
+          "please_fill_password": "Please fill password",
+          "please_fill_first_name": "Please fill first name",
+          "please_fill_last_name": "Please fill last name",
+          "minimum_password": "Minimum password is 8 character",
+          "successfully_loggedin": "you have successfully logged in",
+          "logout": "Logout",
+          "successfully_logout": "Successfully logged out",
+          "home": "Home",
+          "your_data": "Your Data",
+          "mobile_number": "Mobile Number",
+          "gender": "Gender",
+          "male": "Male",
+          "female": "Female",
+          "id_card_number": "ID Card Number",
+          "citizenship": "Citizenship",
+          "passport_number": "Passport Number",
+          "street_address": "Street Address",
+          "issuing_country": "Issuing Country",
+          "next": "Next",
+          "please_login": "Please Login First",
+          "please_fill_mobile": "Please fill mobile number",
+          "please_fill_card": "Please fill id card number",
+          "please_fill_citizen": "Please fill citizenship",
+          "please_fill_passport": "Please fill passport number",
+          "please_fill_street": "Please fill street address",
+          "please_fill_country": "Please fill issuing country"
+        },
+        'id_ID': {
+          "come_to_japan": "Selamat Datang di Jepang",
+          "come_to_japan_desc":
+              "Bunga sakura mekar penuh, tehnya panas, dan orang -orangnya ramah. Datanglah ke Jepang dan alami keindahan negara ini",
+          "popular_destinations": "Destinasi populer di dalam Jepang",
+          "private_trip": "Perjalanan pribadi",
+          "coming_soon": "SEGERA HADIR",
+          "learn_more": "Belajarlah lagi",
+          "booking_now": "Pemesanan sekarang",
+          "honeymoon_trips": "Perjalanan bulan madu",
+          "regular_trips_desc":
+              "Nikmati liburan ke Jepang dengan nyaman dengan paket khusus dari kami",
+          "more_special_offers": "Lebih banyak penawaran khusus",
+          "special_offer": "Penawaran istimewa",
+          "travel_history": "Riwayat perjalanan",
+          "need_booking": "Butuh Bantuan Pemesanan?",
+          "ask_a_specialist": "Tanyakan spesialis",
+          "accommodations": "akomodasi",
+          "explore_your_best": "Jelajahi perjalanan terbaik Anda dengan kami",
+          "explore_your_best_desc":
+              "Rasakan kenyamanan dan kenyamanan dengan berbagai pilihan transportasi kami. Apakah Anda bepergian dengan grup atau solo, kami memiliki kendaraan yang sempurna untuk Anda.",
+          "join_us": "Bergabunglah dengan kami sebagai mitra pemandu wisata",
+          "join_us_desc":
+              "Siap menjadi bagian dari perjalanan kita? Bergabunglah dengan kami sebagai mitra pemandu wisata dan terhubung dengan kami melalui WhatsApp.",
+          "get_started": "Memulai",
+          "welcome_to_skyfast_tour": "Selamat datang di Skyfast Tour",
+          "professional_tour_guide": "Layanan Pemandu Tur Profesional!",
+          "about_us": "Tentang kami",
+          "about_us_desc":
+              "Rasakan petualangan perjalanan yang tak terlupakan dengan SkyfastTour, penyedia layanan pemandu wisata profesional. Didirikan pada tahun 2023, kami berkomitmen untuk memberikan pengalaman perjalanan yang mendalam dan otentik untuk masing-masing klien kami.",
+          "why_choose_us": "Mengapa Memilih Kami?",
+          "why_choose_us_desc_one":
+              "Keahlian yang luas: Dengan pengalaman lebih dari satu tahun, tim pemandu wisata kami memiliki pengetahuan mendalam tentang tujuan perjalanan dan budaya lokal.",
+          "why_choose_us_desc_two":
+              "Tim Profesional: Pemandu wisata kami tidak hanya berfokus pada informasi historis dan budaya; Mereka juga ramah, interaktif, dan siap menjawab pertanyaan Anda.",
+          "why_choose_us_desc_three":
+              "Beragam tujuan: Dari keajaiban alam yang menakjubkan hingga kunjungan ke situs bersejarah, kami menawarkan berbagai pilihan tujuan yang disesuaikan dengan minat Anda",
+          "why_choose_us_desc_four":
+              "Paket yang disesuaikan: Kami memahami bahwa setiap klien memiliki preferensi yang berbeda. Oleh karena itu, kami menawarkan paket wisata yang dapat disesuaikan yang sesuai dengan kebutuhan Anda.",
+          "why_choose_us_desc_five":
+              "Layanan yang berpusat pada pelanggan: Kepuasan pelanggan adalah prioritas utama kami. Kami berusaha untuk memberikan layanan terbaik untuk memastikan Anda memiliki pengalaman perjalanan yang tak terlupakan.",
+          "companys_tax": "Nomor Identifikasi Pajak Perusahaan (NPWP)",
+          "companys_npwp": "NPWP Perusahaan",
+          "registered_name": "Nama terdaftar",
+          "registered_address": "Alamat terdaftar",
+          "privacy_data_policy": "Kebijakan Privasi & Data",
+          "privacy_data_policy_desc":
+              "Selamat datang di Tur Skyfast! Kebijakan privasi kami dirancang untuk menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat Anda menggunakan situs web kami. Kami sangat berkomitmen untuk melindungi privasi dan keamanan data Anda. Dengan menggunakan situs web ini, Anda menyetujui praktik yang dijelaskan dalam Kebijakan Privasi ini. Jika Anda tidak setuju dengan kebijakan ini, jangan gunakan situs web kami.",
+          "information_collect": "Informasi yang kami kumpulkan",
+          "information_collect_decs_one":
+              "Informasi Pribadi: Ketika Anda menggunakan situs web SkyFast Tour, kami dapat meminta Anda untuk memberikan informasi pribadi tertentu, seperti nama Anda, alamat email, nomor telepon, dan informasi pengenal lainnya yang relevan. Kami hanya akan mengumpulkan informasi pribadi jika Anda secara sukarela memberikannya kepada kami.",
+          "information_collect_decs_two":
+              "Informasi non-pribadi: Selain informasi pribadi, kami juga dapat mengumpulkan informasi non-pribadi, seperti data demografis, preferensi, dan informasi lain yang tidak dapat digunakan untuk mengidentifikasi Anda secara pribadi.",
+          "your_information": "Bagaimana kami menggunakan informasi Anda",
+          "your_information_desc_one":
+              "Penggunaan Informasi Pribadi: Kami menggunakan informasi pribadi yang Anda berikan untuk memberikan layanan dan informasi yang Anda minta, memproses transaksi, mengelola akun Anda, dan memberikan dukungan pelanggan yang efektif. Informasi pribadi Anda juga dapat digunakan untuk memberi tahu Anda tentang pembaruan, penawaran khusus, atau informasi terkait lainnya yang mungkin menarik bagi Anda.",
+          "your_information_desc_two":
+              "Penggunaan Informasi Non-Pribadi: Informasi non-pribadi yang kami kumpulkan dapat digunakan untuk analisis data, peningkatan situs web kami, serta untuk mengoptimalkan pengalaman pengguna Anda.",
+          "links_third": "Tautan ke Situs Pihak Ketiga",
+          "links_third_desc":
+              "Situs web SkyFast Tour dapat berisi tautan ke situs web pihak ketiga yang tidak dioperasikan oleh kami. Kebijakan privasi kami tidak berlaku untuk situs web pihak ketiga ini. Kami mendorong Anda untuk membaca kebijakan privasi mereka sebelum memberikan informasi pribadi kepada mereka.",
+          "privacy_policy_changes": "Perubahan Kebijakan Privasi",
+          "privacy_policy_changes_desc":
+              "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Ketika kami melakukannya, kami akan memperbarui tanggal 'terakhir diperbarui' di bagian atas halaman ini. Kami mendorong Anda untuk secara berkala meninjau kebijakan privasi ini untuk tetap diperbarui tentang bagaimana kami melindungi informasi Anda.",
+          "contact_us": "Hubungi kami",
+          "contact_us_desc":
+              "Jika Anda memiliki pertanyaan atau komentar tentang kebijakan privasi kami atau cara kami mengelola informasi pribadi Anda, silakan hubungi kami melalui alamat email atau alamat pos yang tercantum di situs web kami.",
+          "agree_send": "Setuju dan Kirim",
+          "visit_these_romantic":
+              "Kunjungi situs romantis ini di Jepang untuk liburan Anda!",
+          "visit_these_romantic_desc":
+              "Mulai dalam perjalanan romantis dengan tujuan -tujuan mempesona di Jepang ini. Buat kenangan yang bertahan seumur hidup.",
+          "complete_your_experience":
+              "Lengkapi pengalaman Anda dengan fasilitas terbaik",
+          "complete_your_experience_desc":
+              "Rasakan fasilitas terbaik dengan harga terbaik!",
+          "additional_charges": "Biaya tambahan:",
+          "starting_from": "Mulai dari:",
+          "start_from": "Mulai dari",
+          "what_do_you_need":
+              "Apa yang Anda butuhkan untuk perjalanan terbaik Anda?",
+          "what_do_you_need_desc":
+              "Pesan pemandu wisata kami untuk pengalaman yang tak terlupakan, jelajahi tujuan yang luar biasa, dapatkan wawasan lokal yang berharga. Pesan sekarang, nikmati perjalanan yang tak terlupakan!",
+          "more_than": "Lebih dari 100+ orang keberangkatan",
+          "come_on_vacation":
+              "Datanglah berlibur bersama kami dan temukan kenyamanan di setiap perjalanan",
+          "get_your_best_experience ":
+              "Dapatkan pengalaman terbaik Anda saat berada di Jepang dengan Tur Skyfast yang menyediakan berbagai fasilitas perjalanan terbaik",
+          "company": "Perusahaan",
+          "term_condition": "Syarat & kondisi",
+          "carrer": "Carrer",
+          "more_link": "Lebih banyak tautan",
+          "service_tour": "Layanan/Tur",
+          "promo": "Promo",
+          "tours": "Tur",
+          "domestic": "Lokal",
+          "2_can_go": "2 bisa pergi",
+          "easy_to_go": "Mudah untuk pergi",
+          "contact_info": "Info kontak",
+          "information": "Informasi",
+          "tour": "Wisata",
+          "reservation": "Reservasi",
+          "ticketing": "Tiket",
+          "article_event": "Artikel & Acara",
+          "tourgued_desc":
+              "Tourgued dapat menggunakan cookie dan teknologi serupa lainnya untuk meningkatkan pengalaman pengguna di situs web kami. Cookie adalah file teks kecil yang disimpan di perangkat Anda yang membantu kami mengidentifikasi Anda saat Anda kembali ke situs kami. Anda dapat mengatur browser Anda untuk menolak semua atau beberapa cookie atau memberi tahu Anda saat cookie dikirim.",
+          "login": "Gabung",
+          "register": "Daftar",
+          "email": "Surel",
+          "password": "Kata sandi",
+          "forget_password": "Lupa Password",
+          "just_created_account": "Baru saja membuat akun?",
+          "have_account": "Punya akun?",
+          "contact_person": "Kontak person",
+          "contact_person_desc":
+              "Terima kasih atas kepercayaan Anda kepada kami, adakah yang bisa kami bantu? Silakan hubungi kami melalui whatsapp",
+          "send_message": "Kirim pesan",
+          "first_name": "Nama depan",
+          "last_name": "Nama keluarga",
+          "to_protect_security":
+              "Untuk melindungi keamanan data Anda, Anda harus menggantinya",
+          "holiday": "Hari libur",
+          "privacy": "Pribadi",
+          "or": "Atau",
+          "successfully_registered ": "Anda telah berhasil mendaftar",
+          "hello": "Halo",
+          "please_fill_email": "Silakan isi email",
+          "please_fill_password": "Harap isi kata sandi",
+          "please_fill_first_name": "Harap Isi Nama Depan",
+          "please_fill_last_name": "Harap Isi Nama Belakang",
+          "minimum_password": "Kata sandi minimum adalah 8 karakter",
+          "successfully_loggedin": "Anda telah berhasil masuk",
+          "logout": "Keluar",
+          "successfully_logout": "Berhasil keluar",
+          "home": "Beranda",
+          "your_data": "Data Anda",
+          "mobile_number": "Nomor handphone",
+          "gender": "Jenis kelamin",
+          "male": "Pria",
+          "female": "Perempuan",
+          "id_card_number": "Nomor kartu identitas",
+          "citizenship": "Kewarganegaraan",
+          "passport_number": "Nomor paspor",
+          "street_address": "Alamat jalan",
+          "issuing_country": "Negara penerbit",
+          "next": "Berikutnya",
+          "please_login": "Silahkan masuk terlebih dahulu",
+          "please_fill_mobile": "Harap Isi Nomor Ponsel",
+          "please_fill_card": "Harap Isi Nomor Kartu ID",
+          "please_fill_citizen": "Harap isi kewarganegaraan",
+          "please_fill_passport": "Harap Isi Nomor Paspor",
+          "please_fill_street": "Harap Isi Alamat Jalan",
+          "please_fill_country": "Harap isi negara penerbit"
+        },
+        'ja_JP': {
+          "come_to_japan": "日本へようこそ",
+          "come_to_japan_desc": "桜は満開になり、お茶は熱く、人々はフレンドリーです。日本に来て、この国の美しさを体験する",
+          "popular_destinations": "日本内の人気の目的地",
+          "private_trip": "プライベート旅行",
+          "coming_soon": "近日公開",
+          "learn_more": "もっと詳しく知る",
+          "booking_now": "今予約",
+          "honeymoon_trips": "ハネムーン旅行",
+          "regular_trips_desc": "私たちからの特別なパッケージで日本への休暇を快適にお楽しみください",
+          "more_special_offers": "より特別なオファー",
+          "special_offer": "特別なオファー",
+          "travel_history": "旅行の歴史",
+          "need_booking": "予約ヘルプが必要ですか？",
+          "ask_a_specialist": "専門家に尋ねてください",
+          "accommodations": "宿泊施設",
+          "explore_your_best": "私たちと一緒にあなたの最高の旅行を探索してください",
+          "explore_your_best_desc":
+              "さまざまな輸送オプションで快適さと便利さを体験してください。あなたがグループと一緒に旅行するかソロで旅行するかにかかわらず、私たちはあなたに最適な乗り物を持っています。",
+          "join_us": "ツアーガイドパートナーとしてご参加ください",
+          "join_us_desc":
+              "私たちの旅の一部になる準備はできましたか？ツアーガイドのパートナーとして私たちに参加して、WhatsAppを通じて私たちとつながりましょう。",
+          "get_started": "始めましょう",
+          "welcome_to_skyfast_tour": "Skyfastツアーへようこそ",
+          "professional_tour_guide": "プロのツアーガイドサービス！",
+          "about_us": "私たちについて",
+          "about_us_desc":
+              "プロのツアーガイドサービスのプロバイダーであるSkyfasttourで忘れられない旅行アドベンチャーを体験してください。 2023年に設立された私たちは、各クライアントに詳細かつ本物の旅行体験を提供することを約束しています。",
+          "why_choose_us": "なぜ私たちを選ぶのですか？",
+          "why_choose_us_desc_one":
+              "広範な専門知識：1年以上の経験により、ツアーガイドチームは旅行の目的地と地元の文化に関する深い知識を持っています。",
+          "why_choose_us_desc_two":
+              "プロのチーム：私たちのツアーガイドは、歴史的および文化的情報に焦点を合わせているだけではありません。また、フレンドリーでインタラクティブで、あなたの質問に答える準備ができています。",
+          "why_choose_us_desc_three":
+              "多様な目的地：息をのむような自然の驚異から歴史的なサイトへの訪問まで、私たちはあなたの興味に合わせた幅広い目的地の選択肢を提供します",
+          "why_choose_us_desc_four":
+              "カスタマイズされたパッケージ：すべてのクライアントには異なる好みがあることを理解しています。したがって、お客様のニーズに合わせてカスタマイズ可能なツアーパッケージを提供しています。",
+          "why_choose_us_desc_five":
+              "顧客中心のサービス：顧客満足度が私たちの最優先事項です。忘れられない旅行体験を確実に得るために、最高のサービスを提供するよう努めています。",
+          "companys_tax": "会社の税識別番号（NPWP）",
+          "companys_npwp": "会社のNPWP",
+          "registered_name": "登録名",
+          "registered_address": "登録アドレス",
+          "privacy_data_policy": "プライバシーとデータポリシー",
+          "privacy_data_policy_desc":
+              "Skyfastツアーへようこそ！当社のプライバシーポリシーは、当社のWebサイトを使用する際にお客様の個人情報を収集、使用、保護する方法を説明するように設計されています。私たちは、あなたのデータのプライバシーとセキュリティを保護することに深くコミットしています。このウェブサイトを使用することにより、お客様はこのプライバシーポリシーに記載されている慣行に同意します。このポリシーに同意しない場合は、当社のウェブサイトを使用しないでください。",
+          "information_collect": "私たちが収集する情報",
+          "information_collect_decs_one":
+              "個人情報：SkyFastツアーWebサイトを使用する場合、名前、メールアドレス、電話番号、その他の関連する識別情報など、特定の個人情報を提供するように依頼する場合があります。あなたが私たちにそれを自発的に提供した場合にのみ、私たちは個人情報を収集します。",
+          "information_collect_decs_two":
+              "非個人情報：個人情報に加えて、人口統計データ、好み、その他の情報を個人的に特定するために使用できないその他の情報などの非個人情報も収集する場合があります。",
+          "your_information": "お客様の情報の使用方法",
+          "your_information_desc_one":
+              "個人情報の使用：お客様が提供する個人情報を使用して、要求するサービスと情報を提供し、トランザクションを処理し、アカウントを管理し、効果的なカスタマーサポートを提供します。また、個人情報を使用して、最新情報、特別オファー、または興味深い可能性のあるその他の関連情報をお知らせする場合があります。",
+          "your_information_desc_two":
+              "非個人情報の使用：当社が収集した非個人情報は、データ分析、当社のウェブサイトの改善、およびユーザーエクスペリエンスを最適化するために使用される場合があります。",
+          "links_third": "サードパーティサイトへのリンク",
+          "links_third_desc":
+              "SkyFast Tour Webサイトには、当社が運営していないサードパーティのWebサイトへのリンクが含まれている場合があります。当社のプライバシーポリシーは、これらのサードパーティのWebサイトには適用されません。個人情報を提供する前に、プライバシーポリシーを読むことをお勧めします。",
+          "privacy_policy_changes": "プライバシーポリシーの変更",
+          "privacy_policy_changes_desc":
+              "このプライバシーポリシーを随時更新する場合があります。私たちがそうするとき、私たちはこのページの上部で「最後に更新された」日付を更新します。このプライバシーポリシーを定期的に確認して、お客様の情報を保護する方法について最新の状態を維持することをお勧めします。",
+          "contact_us": "お問い合わせ",
+          "contact_us_desc":
+              "当社のプライバシーポリシー、またはお客様の個人情報を管理する方法について質問やコメントがある場合は、当社のウェブサイトに記載されているメールアドレスまたは郵便アドレスからお問い合わせください。",
+          "agree_send": "同意して送信します",
+          "visit_these_romantic": "あなたの休暇のために日本のこれらのロマンチックなサイトにアクセスしてください！",
+          "visit_these_romantic_desc":
+              "日本のこれらの魅惑的な目的地でロマンチックな旅に乗り出します。一生続く思い出を作成します。",
+          "complete_your_experience": "最高の施設で体験を完了してください",
+          "complete_your_experience_desc": "最高の価格で最高の施設を体験してください！",
+          "additional_charges": "追加料金：",
+          "starting_from": "から始まる：",
+          "start_from": "から始まる",
+          "what_do_you_need": "最高の旅行には何が必要ですか？",
+          "what_do_you_need_desc":
+              "忘れられない体験のためにツアーガイドを予約し、驚くべき目的地を探索し、貴重な地元の洞察を得てください。今すぐ予約して、忘れられない旅行をお楽しみください！",
+          "more_than": "100人以上が出発します",
+          "come_on_vacation": "私たちと一緒に休暇に来て、すべての旅行で快適さを見つけてください",
+          "get_your_best_experience ":
+              "日本にいる間に最高の経験を積むSkyfastツアーで、さまざまな最高の旅行施設を提供します",
+          "company": "会社",
+          "term_condition": "用語と条件",
+          "carrer": "カラー",
+          "more_link": "その他のリンク",
+          "service_tour": "サービス/ツアー",
+          "promo": "プロモーション",
+          "tours": "ツアー",
+          "domestic": "国内",
+          "2_can_go": "2は行くことができます",
+          "easy_to_go": "行きやすい",
+          "contact_info": "連絡先情報",
+          "information": "情報",
+          "tour": "旅行",
+          "reservation": "予約",
+          "ticketing": "発券業務",
+          "article_event": "記事とイベント",
+          "tourgued_desc":
+              "Tourguedは、Cookieやその他の同様のテクノロジーを使用して、当社のWebサイトでのユーザーエクスペリエンスを向上させる場合があります。 Cookieは、デバイスに保存されている小さなテキストファイルであり、サイトに戻ったときにあなたを識別するのに役立ちます。ブラウザを設定して、すべてまたは一部のCookieを拒否したり、Cookieが送信されたときに通知したりできます。",
+          "login": "ログイン",
+          "register": "登録する",
+          "email": "Eメール",
+          "password": "パスワード",
+          "forget_password": "パスワードを忘れてください",
+          "just_created_account": "アカウントを作成したばかりですか？",
+          "have_account": "アカウントを持っています？",
+          "contact_person": "連絡担当者",
+          "contact_person_desc":
+              "私たちへのあなたの信頼に感謝します、私たちが助けることができるものはありますか？ WhatsAppからお問い合わせください",
+          "send_message": "メッセージを送ります",
+          "first_name": "ファーストネーム",
+          "last_name": "苗字",
+          "to_protect_security": "データのセキュリティを保護するには、それを交換する必要があります",
+          "holiday": "休日",
+          "privacy": "プライバシー",
+          "or": "または",
+          "successfully_registered ": "登録に成功しました",
+          "hello": "こんにちは",
+          "please_fill_email": "メールを入力してください",
+          "please_fill_password": "パスワードを入力してください",
+          "please_fill_first_name": "名を記入してください",
+          "please_fill_last_name": "姓を記入してください",
+          "minimum_password": "最小パスワードは8文字です",
+          "successfully_loggedin": "あなたは正常にログインしました",
+          "logout": "ログアウト",
+          "successfully_logout": "正常にログアウトしました",
+          "home": "家",
+          "your_data": "あなたのデータ",
+          "mobile_number": "携帯電話番号",
+          "gender": "性別",
+          "male": "男",
+          "female": "女性",
+          "id_card_number": "IDカード番号",
+          "citizenship": "市民権",
+          "passport_number": "パスポート番号",
+          "street_address": "住所",
+          "issuing_country": "発行国",
+          "next": "次",
+          "please_login": "最初にログインしてください",
+          "please_fill_mobile": "携帯電話番号を記入してください",
+          "please_fill_card": "IDカード番号を入力してください",
+          "please_fill_citizen": "市民権を埋めてください",
+          "please_fill_passport": "パスポート番号を記入してください",
+          "please_fill_street": "通りの住所を記入してください",
+          "please_fill_country": "発行国を埋めてください"
+        },
+      };
+}
